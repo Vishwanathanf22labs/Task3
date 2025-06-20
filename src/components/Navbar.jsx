@@ -13,7 +13,7 @@ const Navbar = () => {
         />
 
       
-        <ul className="flex space-x-6 font-medium text-sm text-black">
+        <ul className="flex space-x-6 font-medium text-lg text-black">
           <li><a href="#" className="hover:underline">New & Featured</a></li>
           <li><a href="#" className="hover:underline">Men</a></li>
           <li><a href="#" className="hover:underline">Women</a></li>

@@ -1,7 +1,6 @@
 import React from "react";
-import Related from "./Related";
-import Relatedimages from "./Relatedimages";
 import Relatedsection from "./Relatedsection";
+import Products from "../data/products.json";
 
 const categories = [
   "Lifestyle",
@@ -31,16 +30,16 @@ const ProductGrid = () => {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
-        {[...Array(12)].map((_, i) => (
-          <div key={i} className="border rounded-lg shadow-sm p-4">
+        {Products.map((item) => (
+          <div key={item.id} className="border rounded-lg shadow-sm p-4">
             <img
-              src="https://via.placeholder.com/200"
-              alt="Product"
-              className="mb-4 w-full"
+              src={item.image}
+              alt={item.title}
+              className="mb-4 w-full object-contain h-[200px]"
             />
-            <p className="text-sm font-semibold">Nike Shoe {i + 1}</p>
-            <p className="text-gray-500 text-sm">Men's Shoes</p>
-            <p className="text-sm mt-1 font-medium">MRP : ₹{14995 + i * 100}</p>
+            <p className="text-sm font-semibold">{item.title}</p>
+            <p className="text-gray-500 text-sm">{item.category}</p>
+            <p className="text-sm mt-1 font-medium">MRP : {item.price}</p>
           </div>
         ))}
       </div>

@@ -68,5 +68,19 @@
     "category": "Men's Shoes",
     "price": "₹15,995.00",
     "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+   {
+    "id": 11,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+   {
+    "id": 12,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
   }
 ]

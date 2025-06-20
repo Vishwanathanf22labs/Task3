@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Nike Zoom Vomero 5",
+    "category": "Men's Shoes",
+    "price": "₹14,995.00",
+    "image": "https://static.nike.com/a/images/t_default/9d2593fd-59d9-40c2-8e68-b73a6b44f2db/nike-zoom-vomero-5.png"
+  },
+  {
+    "id": 2,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+  {
+    "id": 3,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+  {
+    "id": 4,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+  {
+    "id": 5,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+  {
+    "id": 6,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+  {
+    "id": 7,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+  {
+    "id": 8,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+   {
+    "id": 9,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  },
+   {
+    "id": 10,
+    "title": "Nike Air Max Dn",
+    "category": "Men's Shoes",
+    "price": "₹15,995.00",
+    "image": "https://static.nike.com/a/images/t_default/72ce1ff8-8cfd-43e9-b479-d1f91b297370/nike-air-max-dn.png"
+  }
+]

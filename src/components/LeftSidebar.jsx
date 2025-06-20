@@ -52,33 +52,40 @@ const LeftSidebar = () => {
   };
 
   return (
-    <div className="p-4 min-h-full text-sm bg-white">
-      <h2 className="font-bold mb-3 text-base">Men's Shoes (1381)</h2>
+    <div className="p-4 min-h-full text-[15px] leading-snug font-light bg-white ml-4">
+      <h1 className="font-bold mb-4 text-[24px]">Men's Shoes (1381)</h1>
 
-      <ul className="space-y-2 text-gray-700 mb-6">
+      <ul className="space-y-3 mb-6">
         {categories.map((item, idx) => (
-          <li key={idx} className="hover:underline cursor-pointer">
+          <h2 key={idx} className="hover:underline cursor-pointer text-lg font-semibold">
             {item}
-          </li>
+          </h2>
         ))}
       </ul>
 
       {filters.map((filter, idx) => (
-        <div key={idx} className="border-t border-gray-300 py-3">
+        <div key={idx} className="border-t border-gray-200 py-3">
           <div
-            className="flex justify-between items-center cursor-pointer"
+            className="flex justify-between items-center cursor-pointer py-1"
             onClick={() => toggleFilter(filter)}
           >
             <p className="font-medium">{filter}</p>
-            {openFilters[filter] ? <FaChevronUp /> : <FaChevronDown />}
+            {openFilters[filter] ? (
+              <FaChevronUp className="text-xs" />
+            ) : (
+              <FaChevronDown className="text-xs" />
+            )}
           </div>
 
           {openFilters[filter] && (
-            <div className="mt-2 pl-2 text-sm space-y-2 text-gray-600">
+            <div className="mt-2 pl-1 space-y-2">
               {(filterOptions[filter] || []).map((option, i) => (
-                <label key={i} className="flex items-center gap-2">
-                  <input type="checkbox" className="accent-black" />
-                  {option}
+                <label key={i} className="flex items-center gap-3">
+                  <input 
+                    type="checkbox" 
+                    className="h-[15px] w-[15px] accent-black border-gray-300 rounded-sm" 
+                  />
+                  <span>{option}</span>
                 </label>
               ))}
             </div>

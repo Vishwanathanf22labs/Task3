@@ -7,3 +7,11 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+    @font-face {
+      font-family: 'HelveticaCustom'; /* Choose a unique name for your font */
+      src: url('./fonts/Helvetica.ttf') format('truetype'), /* Adjust path and format as needed */
+           url('./fonts/Helvetica.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }

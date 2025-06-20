@@ -8,11 +8,11 @@ const Relatedimages = () => {
 
       <div className="flex gap-4 overflow-x-auto scrollbar-hide">
         {Relateddata.map((item, index) => (
-          <div key={index} className="min-w-[220px] flex-shrink-0">
+          <div key={index} className="min-w-[320px] flex-shrink-0">
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-auto rounded-lg"
+              className="w-[300px] h-auto "
             />
             <p className="mt-2 text-sm text-gray-500">{item.desc}</p>
             <h3 className="mt-1 text-base font-medium text-gray-800 leading-snug">
